@@ -31,7 +31,7 @@ int main()                              // Main Function or Main Body
             m=fact(i)/(fact(i-k)*fact(k));  // Caling the function of factorial declared above the main program
             printf("%d ",m);
         }
-        printf("\n");
+        printf("\n");                       //Going to new line after each row is printed.
     }
     return 0;
 }
